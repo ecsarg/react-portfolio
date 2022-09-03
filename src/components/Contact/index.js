@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
-    cosnt[formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const[formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, mesaage } = formstate;
+    const { name, email, message } = formState;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -30,7 +30,7 @@ function ContactForm() {
             }
         }
         if (!errorMessage) {
-            setFormstate({ ...formState, [e.target.name]: e.target.value });
+            setFormState({ ...formState, [e.target.name]: e.target.value });
             console.log('Handle Form', formState);
         }
     };
