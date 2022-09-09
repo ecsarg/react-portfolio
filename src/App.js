@@ -1,45 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from './components/Nav';
-import About from './components/About';
-import ContactForm from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+import About from './components/About'
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'portfolio',
-      description: 'This is a page of my developments',
-    },
-    { name: 'resume', description: 'This is a link to my resume' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
   return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        ></Nav>
-        <main>
-          {!contactSelected ? (
-            <>
-            <About></About>
-            </>
-          ) : (
-            <>
-            <ContactForm></ContactForm>
-            <Portfolio></Portfolio>
-            <Resume></Resume>
-            </>
-          )}        
-        </main>
-    </div>
+    <><header>
+      <Nav />
+    </header><main>
+        <About />
+      </main></>
   );
 }
 
