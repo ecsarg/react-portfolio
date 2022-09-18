@@ -1,15 +1,19 @@
 import React from 'react';
-import ProjectsList from '../ProjectsList';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import RunBuddy from '../../assets/large/run-buddy.jpeg';
 
-function Portfolio(props) {
-  const { currentCategory } = props;
+function Portfolio() {
   return (
-    <section>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
-      <ProjectsList category={currentCategory.name} />
+    <section className='portfolio'>
+      <div className='row row-cols-1 row-cols-sm-2 rows-cols-md-2 rows-cols-lg-3 g-4'>
+        <div className='col'>
+          <div className='card'>
+            <img src={RunBuddy} alt='Run Buddy' className='card-img-top' />
+            <div className='card-body'>
+              <a href='https://'
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  );
+  )
 }
-export default Portfolio;

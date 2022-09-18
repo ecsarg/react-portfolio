@@ -1,43 +1,28 @@
-import React, { useState } from 'react';
-import Nav from './components/Nav';
+import React, { Component } from 'react';
+import {HashRouter, Route} from 'react-router-dom';
+import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import './App.css';
 
-function App() {
-  const [categories] = useState([
-    {
-      name: 'Portfolio',
-      description: 'Projects I have created through Bootcamp',
-    },
-    { name: 'Resume', description: 'Click below to download my resume' },
-  ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  const [contactSelected, setContactSelected] = useState(false);
-
-  return (
-    <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
-    </div>
-  );
-}
+class App extends Component {
+  render() {
+    return (
+      <HashRouter basename='/'>
+        <div>
+          <Header />
+          <main>
+              <Route exact path='/about' component={About} />
+              <Route exact path='/contact' component={Contact} />
+              <Route exact path='/portfolio' component={Portfolio} />
+          </main>
+          <Footer />
+        </div>
+      </HashRouter>
+    );
+  }
+};
 
 export default App;
