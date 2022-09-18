@@ -1,20 +1,24 @@
 import React from 'react';
-
+import aboutImage from '../../assets/cover/about-me.jpg';
 
 function About() {
     return (
-        <section id='about'>
-            <div className='row'>
-                <div className='two columns'>
-                <h2 id='about'>About Me!</h2>
-                    <img className='about-me-pic' src='components/images/about-me.jpg' alt='' />
-                    <p>
-                 I am an entry level full stack developer who is excited to pursue my new career in web development! Before web development, I worked as an Occupational Therapist within the hospital setting. I am also passionate about health and wellness. In my free time, I enjoy spending time with my two dogs, Lucille and Paisley, as well as working out.
-                </p>
-                </div>
-            </div>
-        </section>
+      <section className="my-5">
+        <h1 id="about">I'm Ellie! Welcome to my page!</h1>
+        <img src={aboutImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+        <div className="my-2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
+            condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
+            mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
+            Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
+            justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
+            dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
+            Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          </p>
+        </div>
+      </section>
     );
-}
-
-export default About;
+  }
+  
+  export default About;
