@@ -1,5 +1,5 @@
 import React from 'react';
-import RunBuddy from '../../assets/large/run-buddy.jpeg';
+import RunBuddy from '../../assets/run-buddy.jpeg';
 
 function Portfolio() {
   return (
@@ -9,11 +9,15 @@ function Portfolio() {
           <div className='card'>
             <img src={RunBuddy} alt='Run Buddy' className='card-img-top' />
             <div className='card-body'>
-              <a href='https://'
+              <a href='https://ecsarg.githubio/run-buddy' target='blank' rel='noreferrer'>
+                <button>Run Buddy Website</button>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
+
+export default Portfolio;
