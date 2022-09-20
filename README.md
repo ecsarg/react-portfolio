@@ -15,7 +15,7 @@
 
 ##  Project Links
 Deployed link:
-https://ecsarg.github.com/io/react-portfolio
+http://ecsarg.github.io/react-portfolio
 
 
 GitHub project:
