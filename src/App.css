@@ -16,8 +16,8 @@ main {
   --primary: #503f8b;
   --secondary: #4892c4;
   --tertiary: #063664;
-  --light: #fafafa;
-  --dark: #1a1a1a;
+  --light: #f4f8fbd3;
+  --dark: #4c5c2b;
   --error: rgb(99, 0, 0);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -106,7 +106,7 @@ header {
   align-items: baseline;
   padding: 10px;
   border-bottom: 2px solid black;
-  background: wheat;
+  background: rgb(146, 214, 246);
 }
 
 header a {
@@ -322,7 +322,7 @@ footer {
   justify-content: center;
   align-items: center;
   border-top: 2px solid black;
-  background: wheat; 
+  background: rgb(146, 214, 246); 
 }
 
 li {

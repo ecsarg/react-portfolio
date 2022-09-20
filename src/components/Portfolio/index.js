@@ -1,5 +1,9 @@
 import React from 'react';
 import RunBuddy from '../../assets/run-buddy.jpeg';
+import PasswordGenerator from '../../assets/password-generator.png';
+import DogAdoption from '../../assets/dog-adoption.png';
+import RecordSwap from '../../assets/record-swap.png';
+import FantasticUmbrella from '../../assets/fantastic-umbrella.png';
 
 function Portfolio() {
   return (
@@ -10,7 +14,47 @@ function Portfolio() {
             <img src={RunBuddy} alt='Run Buddy' className='card-img-top' />
             <div className='card-body'>
               <a href='https://ecsarg.githubio/run-buddy' target='blank' rel='noreferrer'>
-                <button>Run Buddy Website</button>
+                <button>Run Buddy</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='col'>
+          <div className='card'>
+            <img src={PasswordGenerator} alt='Password Generator' className='card-img-top' />
+            <div className='card-body'>
+              <a href='https://ecsarg.github.io/password-generator/' target='blank' rel='noreferrer'>
+                <button>Password Generator</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='col'>
+          <div className='card'>
+            <img src={DogAdoption} alt='Dog Adoption Assistant' className='card-img-top' />
+            <div className='card-body'>
+              <a href='https://westsideriley.github.io/Group-Project-1/' target='blank' rel='noreferrer'>
+                <button>Dog Adoption Assistant</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='col'>
+          <div className='card'>
+            <img src={RecordSwap} alt='The Record Swap' className='card-img-top' />
+            <div className='card-body'>
+              <a href='https://gentle-stream-19606.herokuapp.com/' target='blank' rel='noreferrer'>
+                <button>The Record Swap</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='col'>
+          <div className='card'>
+            <img src={FantasticUmbrella} alt='Fantastic Umbrella' className='card-img-top' />
+            <div className='card-body'>
+              <a href='https://github.com/ecsarg/fantastic-umbrella' target='blank' rel='noreferrer'>
+                <button>E-commerce: Fantastic Umbrella</button>
               </a>
             </div>
           </div>
