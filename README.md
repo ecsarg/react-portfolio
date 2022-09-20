@@ -15,7 +15,7 @@
 
 ##  Project Links
 Deployed link:
-https://gentle-stream-19606.herokuapp.com/
+https://ecsarg.github.com/io/react-portfolio
 
 
 GitHub project:
