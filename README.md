@@ -1,4 +1,4 @@
-# Online Record Store
+# React Portfolio
 
 [![github-follow](https://img.shields.io/github/followers/ecsarg?label=Follow&logoColor=blue&style=social)](https://github.com/ecsarg/react-portfolio)
 [![project-languages-used](https://img.shields.io/github/languages/count/ecsarg/online-record-store?color=important)](https://github.com/ecsarg/react-portfolio)
