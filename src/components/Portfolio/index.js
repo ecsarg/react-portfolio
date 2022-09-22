@@ -4,6 +4,7 @@ import PasswordGenerator from '../../assets/password-generator.png';
 import DogAdoption from '../../assets/dog-adoption.png';
 import RecordSwap from '../../assets/record-swap.png';
 import FantasticUmbrella from '../../assets/fantastic-umbrella.png';
+import WorkoutTracker from '../../assets/workout-tracker.png';
 
 function Portfolio() {
   return (
@@ -55,6 +56,16 @@ function Portfolio() {
             <div className='card-body'>
               <a href='https://github.com/ecsarg/fantastic-umbrella' target='blank' rel='noreferrer'>
                 <button>E-commerce: Fantastic Umbrella</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='col'>
+          <div className='card'>
+            <img src={WorkoutTracker} alt='Workout Tracker' className='card-img-top' />
+            <div className='card-body'>
+              <a href='https://infinite-falls-51606.herokuapp.com/' target='blank' rel='noreferrer'>
+                <button>Workout Tracker</button>
               </a>
             </div>
           </div>
