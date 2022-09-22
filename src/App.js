@@ -6,7 +6,6 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
-import Home from './components/Home';
 
 class App extends Component {
   render() {
@@ -15,8 +14,7 @@ class App extends Component {
         <div>
           <Header />
           <main>
-              <Route exact path='/' component={Home} />
-              <Route exact path='/about' component={About} />
+              <Route exact path='/' component={About} />
               <Route exact path='/contact' component={Contact} />
               <Route exact path='/portfolio' component={Portfolio} />
           </main>
