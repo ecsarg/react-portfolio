@@ -1,11 +1,11 @@
 import React from 'react';
+import ESResume from '../../assets/Resume.pdf';
 
 function Resume () {
-    return (
-        <section>
-            <h2>Click here to download my resume.</h2>
-        </section>
-    );
-}
+    return(
+       
+    
+      )
+    }
 
 export default Resume;
