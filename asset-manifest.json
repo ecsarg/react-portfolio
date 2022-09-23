@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.eab4abe8.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.1555b889.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.1555b889.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.38f68e77.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.38f68e77.js.map",
-    "static/js/2.9e29a0a2.chunk.js": "/react-portfolio/static/js/2.9e29a0a2.chunk.js",
-    "static/js/2.9e29a0a2.chunk.js.map": "/react-portfolio/static/js/2.9e29a0a2.chunk.js.map",
-    "static/js/3.3006691d.chunk.js": "/react-portfolio/static/js/3.3006691d.chunk.js",
-    "static/js/3.3006691d.chunk.js.map": "/react-portfolio/static/js/3.3006691d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.475c4412.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.475c4412.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.a5688903.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.a5688903.js.map",
+    "static/js/2.febcb1da.chunk.js": "/react-portfolio/static/js/2.febcb1da.chunk.js",
+    "static/js/2.febcb1da.chunk.js.map": "/react-portfolio/static/js/2.febcb1da.chunk.js.map",
+    "static/js/3.b83eef12.chunk.js": "/react-portfolio/static/js/3.b83eef12.chunk.js",
+    "static/js/3.b83eef12.chunk.js.map": "/react-portfolio/static/js/3.b83eef12.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/main.eab4abe8.chunk.css.map": "/react-portfolio/static/css/main.eab4abe8.chunk.css.map",
-    "static/js/2.9e29a0a2.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.9e29a0a2.chunk.js.LICENSE.txt",
+    "static/js/2.febcb1da.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.febcb1da.chunk.js.LICENSE.txt",
     "static/media/about-me.6470a694.jpg": "/react-portfolio/static/media/about-me.6470a694.jpg",
     "static/media/dog-adoption.f3c599fa.png": "/react-portfolio/static/media/dog-adoption.f3c599fa.png",
     "static/media/fantastic-umbrella.fc37f5ee.png": "/react-portfolio/static/media/fantastic-umbrella.fc37f5ee.png",
@@ -21,9 +21,9 @@
     "static/media/workout-tracker.19a3b6d6.png": "/react-portfolio/static/media/workout-tracker.19a3b6d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.38f68e77.js",
-    "static/js/2.9e29a0a2.chunk.js",
+    "static/js/runtime-main.a5688903.js",
+    "static/js/2.febcb1da.chunk.js",
     "static/css/main.eab4abe8.chunk.css",
-    "static/js/main.1555b889.chunk.js"
+    "static/js/main.475c4412.chunk.js"
   ]
 }
